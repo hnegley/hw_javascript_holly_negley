@@ -7,15 +7,15 @@ howdy();
 
 
 
-var numba = function(string)
+var numba = function(string) {
 
 if (string < 7) {console.log ("What a short word!"); }
 
-else (string > 7) {console.log ("I'm sorry, but that's too many to count.");}
+else if (string > 7) {console.log ("I'm sorry, but that's too many to count.");}
 
 else if (string === 7){console.log ("7, what a perfect choice."); }
     
-    
+}
 
 
 function inception(callback,value){
