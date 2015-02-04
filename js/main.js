@@ -24,8 +24,8 @@ function inception(callback, value) {
     callback(value);
 }
 
-function value() {
-    console.log("Mud is a fantastic movie")
+function value( messageToLog ) {
+    console.log( messageToLog );
 }
 
-inception(value);
+inception( value, "Mud is a fantastic movie" );
