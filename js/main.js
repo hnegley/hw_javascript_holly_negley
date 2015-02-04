@@ -35,4 +35,4 @@ var presidents = [{
     }
 ];
 
-console.log(presidents["Bill", "CLinton"]);
+console.log( presidents[2].firstName + " " + presidents[2].lastName );
